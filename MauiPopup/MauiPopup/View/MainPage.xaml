@@ -6,7 +6,7 @@
              x:Class="MauiPopup.MainPage">
 
     <ContentPage.BindingContext>
-        <local:ViewModel/>
+        <local:PopupViewModel/>
     </ContentPage.BindingContext>
 
     <Button Text="Show Popup" Command="{Binding ButtonCommand}"/>
